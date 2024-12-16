@@ -1,7 +1,4 @@
 export default function Home() {
-  function teste() {
-    console.log("Aoba");
-  }
   return (
     <section>
       <h1> Isso é pra dar erro, não? </h1>
