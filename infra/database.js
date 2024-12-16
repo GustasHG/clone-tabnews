@@ -14,10 +14,12 @@ async function query(queryObject) {
   }
 }
 
-export default {
+const database = {
   query,
   getNewClient,
 };
+
+export default database;
 
 function getSSLConection() {
   return process.env.NODE_ENV === "production" ? true : false;
